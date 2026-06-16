@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manikanta Gollapelly | Operations & Strategy Portfolio</title>
+    <style>
+        :root {
+            --primary: #1a365d;
+            --secondary: #2b6cb0;
+            --dark: #2d3748;
+            --light: #f7fafc;
+            --border: #e2e8f0;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: var(--dark); background: #ffffff; line-height: 1.6; }
+        
+        /* Navigation */
+        nav { background: var(--primary); padding: 1rem 2rem; position: sticky; top: 0; z-index: 100; display: flex; justify-content: space-between; align-items: center; }
+        nav .logo { color: white; font-weight: bold; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px; }
+        nav ul { display: flex; list-style: none; gap: 1.5rem; }
+        nav ul li a { color: #e2e8f0; text-decoration: none; font-size: 0.95rem; transition: color 0.3s; }
+        nav ul li a:hover { color: white; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); color: white; padding: 5rem 2rem; text-align: center; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 0.5rem; text-transform: uppercase; }
+        .hero p { font-size: 1.2rem; max-width: 800px; margin: 0 auto 1.5rem auto; color: #e2e8f0; }
+        .hero .cta-btn { background: #ffffff; color: var(--primary); padding: 0.7rem 1.5rem; text-decoration: none; font-weight: bold; border-radius: 4px; transition: transform 0.2s; display: inline-block; }
+        .hero .cta-btn:hover { transform: translateY(-2px); }
+
+        /* Container */
+        .container { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+        section { margin-bottom: 4rem; }
+        h2 { color: var(--primary); border-bottom: 3px solid var(--secondary); padding-bottom: 0.5rem; margin-bottom: 1.5rem; text-transform: uppercase; font-size: 1.5rem; }
+
+        /* Grid Framework */
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; }
+        .card { background: var(--light); padding: 1.5rem; border: 1px solid var(--border); border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .card h3 { color: var(--primary); margin-bottom: 0.5rem; }
+        .card .tag { background: var(--secondary); color: white; font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 3px; display: inline-block; margin-bottom: 1rem; font-weight: bold; }
+        .card ul { padding-left: 1.2rem; font-size: 0.9rem; }
+        
+        /* Contact Footer */
+        footer { background: var(--dark); color: white; text-align: center; padding: 2rem; font-size: 0.9rem; }
+        footer a { color: #cbd5e0; text-decoration: none; margin: 0 0.5rem; }
+        footer a:hover { color: white; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">M. Gollapelly</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Research</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Manikanta Gollapelly</h1>
+        <p>International Business Postgraduate Specializing in Global Operations, Supply Chain Logistics, & Digital Platform Strategy</p>
+        <a href="mailto:manikantagollapelly65@gmail.com" class="cta-btn">Get In Touch</a>
+    </div>
+
+    <div class="container">
+        
+        <!-- About Section -->
+        <section id="about">
+            <h2>Professional Profile</h2>
+            <p>Result-driven International Business Management MSc postgraduate with a solid BBA foundation and hands-on operational experience across major digital and physical commerce models in the UK and globally. Proven capability to analyze market entry parameters, navigate enterprise CRM systems under fast-paced performance thresholds, optimize logistics workflows, and resolve cross-border supply chain anomalies with structural accuracy.</p>
+        </section>
+
+        <!-- Research Portfolio Section -->
+        <section id="projects">
+            <h2>Research & Strategy Portfolio</h2>
+            <div class="grid">
+                <div class="card">
+                    <span class="tag">Postgraduate Dissertation</span>
+                    <h3>UK SME Market Entry & Digital Platforms</h3>
+                    <p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0.5rem;">Cardiff Metropolitan University (Current)</p>
+                    <p style="font-size: 0.9rem; margin-bottom: 0.5rem;"><strong>Title:</strong> "The role of digital platforms in shaping international market entry strategies of small and medium-sized enterprises (SMEs): A qualitative study of UK-based firms."</p>
+                    <p style="font-size: 0.9rem;">Investigating how contemporary electronic infrastructure maps out pathways for localized corporate units to bypass traditional trade obstacles and optimize cross-border performance metrics.</p>
+                </div>
+                <div class="card">
+                    <span class="tag">Enterprise Consultation Project</span>
+                    <h3>Digital Transformation Frameworks</h3>
+                    <p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0.5rem;">State Bank of India Collaboration</p>
+                    <p style="font-size: 0.9rem;">Served as Project Lead evaluating core organizational adjustments during comprehensive corporate technical transitions. Synthesized process gaps and built data blueprints mapping employee adaptation during high-level system upgrades.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Overview Section -->
+        <section id="experience">
+            <h2>Operational Impact</h2>
+            <div class="grid">
+                <div class="card">
+                    <span class="tag">Digital Logistics</span>
+                    <h3>Virtual Customer Service Associate</h3>
+                    <p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0.5rem;">Amazon (Sep 2024 - Dec 2024)</p>
+                    <ul>
+                        <li>Administered cross-border database tracking frameworks to audit and resolve complex client disputes regarding international cargo.</li>
+                        <li>Utilized corporate CRM infrastructure to coordinate escalation tasks under rigorous SLA speed matrices.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <span class="tag">Physical Supply Chain</span>
+                    <h3>Warehouse Operations Operator</h3>
+                    <p style="font-size: 0.9rem; font-style: italic; margin-bottom: 0.5rem;">The Range UK (2025 - Present)</p>
+                    <ul>
+                        <li>Executing fast-paced inventory processing, order allocation, and system validation workflows via RF scanning tech inside a major distribution hub.</li>
+                        <li>Maintaining absolute compliance with strict UK workspace protocols to accelerate supply chain throughput.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer id="contact">
+        <p>&copy; 2026 Manikanta Gollapelly. All Rights Reserved.</p>
+        <p style="margin-top: 0.5rem;">
+            <a href="mailto:manikantagollapelly65@gmail.com">Email</a> | 
+            <a href="https://www.linkedin.com/in/manikanta-gollapelly" target="_blank">LinkedIn</a> | 
+            <span>Cardiff, Wales, UK</span>
+        </p>
+    </footer>
+
+</body>
+</html>
